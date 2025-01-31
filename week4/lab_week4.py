@@ -164,7 +164,7 @@ print("--- You have a strong player: " + str((combat_strength + health_points) >
 
 #Lab04 - Q2
 #Roll for the Monster's Power
-input("Roll for the Monster's Magic Power(Press Enter)")
+input("Roll for the Monster's Magic Power (Press Enter)")
 power_roll = random.choice(["Fire Magic","Freezing Time","Super Hearing"])\
 
 # Loop while the monster and the player are alive. Call fight sequence functions
